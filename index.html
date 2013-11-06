@@ -297,9 +297,7 @@
 				</div> \
 			</article>';
 
-			$('.posts').prepend($(template).fadeIn(function(){
-				$(this).css('display', 'inline-block');
-			}));
+			$('.posts').prepend($(template).fadeIn());
 			$('input[type=text]').val('');
 			$('form').slideUp();
 		}

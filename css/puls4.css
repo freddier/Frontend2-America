@@ -50,6 +50,6 @@ nav .menu li a:hover{background:rgba(0,0,0,0.1)}
 .posts .post .descripcion .imagen img{height:160px;vertical-align:top;width:120px}
 @media screen and (min-width: 768px){header .titular .publicar{font-size:1.1em;padding-left:3em;position:relative;}
 header .titular .publicar:before{left:0;font-size:2.5em;position:absolute;top:-10px}
-.posts .post{display:inline-block;width:48%;vertical-align:top;}
+.posts .post{display:inline-block !important;width:48%;vertical-align:top;}
 .posts .post:nth-child(odd){margin-right:2%}
 }
