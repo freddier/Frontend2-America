@@ -5,6 +5,8 @@ footer{background:#dd4f24;color:rgba(255,255,255,0.5);padding:1em 0;text-align:c
 footer h3{font-size:14px;font-weight:normal;}
 footer h3 strong{display:block}
 footer h3 .mejor:before,footer h3 .mejor:after{content:" - "}
+form{padding:.8em;display:none;}
+form label{display:inline-block;width:60px}
 header{background:#444;box-shadow:0 5px 0 rgba(0,0,0,0.2);color:#fff;overflow:hidden;padding:.5em;position:relative;z-index:2;}
 header .logo{border-right:1px solid #22bce0;float:left;width:60px;}
 header .logo img{width:52px}
